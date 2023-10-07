@@ -3,11 +3,12 @@ html {
   }
   
   body {
-    background-color: rgb(209, 183, 224);
+    background-color: silver;
     position: relative;
     min-height: 100vh;
     padding: 0;
     margin: 0;
+    font-size: 19px;
   }
   
   main {
@@ -70,4 +71,17 @@ html {
     width: 100%;
     height: 2.5rem;
   }
+
+  p {
+    font-family: sans-serif;
+  }
+
+  .class {
+    color: red;
+    background-color: blue;
+  }
   
+  #id {
+    color: green;
+    background-color: yellow;
+  }
